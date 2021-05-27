@@ -18,6 +18,7 @@
 struct ingredient_t{
     char name[32];
     int obtained;
+    struct ingredient_t *next;
 };
 
 struct recipe_t{
@@ -35,6 +36,7 @@ struct recipe_t{
     int needed_5;
     char ingredient_6[32];
     int needed_6;
+    struct recipe_t *next;
 };
 
 

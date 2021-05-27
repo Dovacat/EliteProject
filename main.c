@@ -18,6 +18,7 @@
 int main(void){
     int done = 0;
     int choice;
+    char inpux[32];
     while(!done){
         printf("Welcome to the ED Oddyssey Material Tracker\n");
         printf("Please select what you would like to do\n");
@@ -38,6 +39,9 @@ int main(void){
             case 4:
             case 5:
             case 6:
+                printf("enter the name of the ingredient\n");
+                
+                break;
             case 7:
             case 8:
                 printf("Exiting...\n");
