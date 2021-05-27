@@ -1,9 +1,17 @@
+NOTE: Currently only compiled for linux, will ad windows exe when this becomes somewhat usable
+
+based on C cause C is gods language
+I currently have zero intention to make any sort of GUI outside a terminal
+I also will make very slow progress on this cause I will only remember it exists when I get mad at elite dangerous for not already having something similar
+Interfacing with the game would be nice but thats way too much effort atm
+
+
 shit to do
 
-Ingredient Struct
+Ingredient Struct(Done)
     name
     number obtained
-recipe Struct
+recipe Struct(Done)
     probably just need 6 ingredients max
     number needed per Ingredient
 
